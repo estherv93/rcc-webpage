@@ -2,7 +2,7 @@
 It didn't work. However, I was able to set the site width through the "container" tag instead. */
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     font-family: 'Montserrat', sans-serif;
 }
 
