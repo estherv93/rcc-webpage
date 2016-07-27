@@ -8,7 +8,7 @@ It didn't work. However, I was able to set the site width through the "container
 
 div.scroll {
     width: 100%;
-    height: 150px;
+    height: 250px;
     overflow: scroll;
 }
 
@@ -35,7 +35,7 @@ ul {
 /* EV: starting work on resizing fonts */
 
 .blue-bckgrnd h3 {
-    font-size: 55px;
+    font-size: 66px;
     margin-top: 6px;
     margin-left: 27px;
     margin-bottom: 10px
