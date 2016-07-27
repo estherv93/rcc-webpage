@@ -1,22 +1,98 @@
 /* EV: Tried setting site width through the "body" tag. 
 It didn't work. However, I was able to set the site width through the "container" tag instead. */
 
+body {
+    background: #f1f1f1;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 337px;
+}
+
+a {
+    text-decoration: underline;
+}
+
 .container {
     max-width: 1200px;
-    font-family: 'Montserrat', sans-serif;
+    background: #fff;
 }
 
 div.scroll {
     width: 100%;
     height: 400px;
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 }
+
 div.scroll ol li {
-     margin-top: 15px;   
+    margin-top: 15px;
 }
 
 ul {
     list-style-type: none;
+}
+
+.col-01,
+.col-02,
+.col-03,
+.footer-image {
+    float: left;
+}
+
+.footer-image {
+    width: 10%;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col-01 {
+    width: 43%;
+}
+
+.col-02 {
+    width: 22%;
+}
+
+.col-03 {
+    width: 45%;
+}
+
+.col-ml {
+    margin-left: 2%;
+}
+
+.col-mr {
+    margin-right: 4%;
+}
+
+.padding-bt {
+    padding-bottom: 10px;
+}
+
+.woo-foo-form {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.main-area {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main-area h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.seven-bldgs {
+    font-size: 20px;
+    padding-left: 31px;
 }
 
 
@@ -34,13 +110,17 @@ ul {
     padding-bottom: 15px;
 }
 
-/* EV: starting work on resizing fonts */
-
-.blue-bckgrnd h3 {
-    font-size: 66px;
+.for-sale {
+    font-size: 57px;
     margin-top: 6px;
     margin-left: 27px;
     margin-bottom: 10px;
+}
+
+
+/* EV: starting work on resizing fonts */
+
+.blue-bckgrnd h3 {
 }
 
 .blue-bckgrnd ul {
@@ -97,7 +177,9 @@ ul {
     float: left;
 }
 
+
 /*** Wooform Styling ***/
+
 #wufoo-qfty4950p62u9j {
     padding: 25px;
     border: 1px solid gray;
@@ -116,18 +198,61 @@ ul {
         width: 20%;
         float: left;
     }
-    .blue-bckgrnd h3 {
-        font-size: 50px;
+    .woo-foo-form {
+        width: 90%;
     }
 }
 
-@media (min-width: 1200px) {
-    .col-lg-15 {
-        width: 20%;
-        float: left;
+@media (max-width: 1200px) {
+    .for-sale {
+        font-size: 50px;
+    }
+    .margin-top-px {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 960px) {
+    .woo-foo-form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    /**Please clean this up, this isn't a good name **/
+    .margin-top-px2 {
+        margin-top: 0px;
+        font-size: 12px!important;
+        padding-bottom: 10px;
+    }
+    .col-lg-6 {
+        margin-top: 5px;
+    }
+    .for-sale {
+        font-size: 30px;
+        margin-left: 8px;
+    margin-top: 0px;
+    }
+    .seven-bldgs {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .footer-image {
+    width: 28%;
+}
+    .col-01 {
+    width: 62%;
+}
+    .col-ml {
+    margin-left: 2%;
+}
+    .col-03 {
+    width: 98%;
+}
+    .hide-me {
+        display: none;
     }
 }
 
 
 /* EV: end of 5 column code */
-
