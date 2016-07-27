@@ -16,9 +16,12 @@ ul {
     list-style-type: none;
 }
 
+/*
 .banner {
-    width: 100%;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
 }
+*/
 
 .blue-bckgrnd {
     background-color: #1074BC;
