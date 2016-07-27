@@ -11,6 +11,9 @@ div.scroll {
     height: 400px;
     overflow: scroll;
 }
+div.scroll ol li {
+     margin-top: 15px;   
+}
 
 ul {
     list-style-type: none;
@@ -94,6 +97,13 @@ ul {
 .col-xs-15 {
     width: 20%;
     float: left;
+}
+
+/*** Wooform Styling ***/
+#wufoo-qfty4950p62u9j {
+    padding: 25px;
+    border: 1px solid gray;
+    margin-top: 10px;
 }
 
 @media (min-width: 768px) {
