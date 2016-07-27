@@ -1,0 +1,72 @@
+/* EV: Tried setting site width through the "body" tag. 
+It didn't work. However, I was able to set the site width through the "container" tag instead. */
+
+.container {
+    width: 1200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.scroll {
+    width: 100%;
+    height: 150px;
+    overflow: scroll;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.banner {
+    width: 100%;
+}
+
+.blue-bckgrnd {
+    background-color: #1074BC;
+    color: #fff;
+    padding-top: 12px;
+}
+/* EV: starting work on resizing fonts */
+.blue-bckgrnd h3 {
+    font-size: 55px;
+}
+
+.orange-bckgrnd {
+    padding-top: 12px;
+    background-color: #F7931D;
+    color: #fff;
+}
+
+/* EV: Code for making 5 Columns > Source: http://www.wearesicc.com/quick-tips-5-column-layout-with-twitter-bootstrap/ */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+/* EV: end of 5 column code */
