@@ -16,6 +16,7 @@ ul {
     list-style-type: none;
 }
 
+
 /*
 .banner {
     margin-right: 0px !important;
@@ -24,22 +25,62 @@ ul {
 */
 
 .blue-bckgrnd {
-    background-color: #1074BC;
+    background-color: #0e76bc;
     color: #fff;
-    padding-top: 12px;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
+
+
 /* EV: starting work on resizing fonts */
+
 .blue-bckgrnd h3 {
     font-size: 55px;
+    margin-top: 6px;
+    margin-left: 27px;
+    margin-bottom: 10px
+}
+
+.blue-bckgrnd ul {
+    list-style-type: none;
+    font-size: 19px;
 }
 
 .orange-bckgrnd {
     padding-top: 12px;
-    background-color: #F7931D;
+    background-color: #f7941e;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.orange-bckgrnd a {
     color: #fff;
 }
 
+.location {
+    margin-left: -25px;
+    width: 226px;
+    margin-right: -30px;
+}
+
+.contact {
+    width: 199px;
+}
+
+.location,
+.contact {
+    margin-top: 10px;
+}
+
+.information {
+    margin-top: -18px;
+    font-size: 20px;
+}
+
+
 /* EV: Code for making 5 Columns > Source: http://www.wearesicc.com/quick-tips-5-column-layout-with-twitter-bootstrap/ */
+
 .col-xs-15,
 .col-sm-15,
 .col-md-15,
@@ -54,22 +95,27 @@ ul {
     width: 20%;
     float: left;
 }
+
 @media (min-width: 768px) {
-.col-sm-15 {
+    .col-sm-15 {
         width: 20%;
         float: left;
     }
 }
+
 @media (min-width: 992px) {
     .col-md-15 {
         width: 20%;
         float: left;
     }
 }
+
 @media (min-width: 1200px) {
     .col-lg-15 {
         width: 20%;
         float: left;
     }
 }
+
+
 /* EV: end of 5 column code */
