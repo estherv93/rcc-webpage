@@ -34,7 +34,6 @@ ul {
     padding-bottom: 15px;
 }
 
-
 /* EV: starting work on resizing fonts */
 
 .blue-bckgrnd h3 {
@@ -53,8 +52,7 @@ ul {
     padding-top: 12px;
     background-color: #f7941e;
     color: #fff;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 0;
 }
 
 .orange-bckgrnd a {
