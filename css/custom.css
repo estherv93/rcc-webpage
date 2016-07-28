@@ -27,6 +27,22 @@ div.scroll ol li {
     margin-top: 15px;
 }
 
+
+/*** For index2 ***/
+
+div.scroll2 {
+    margin-right: 3%;
+    width: 55%;
+    height: 496px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    float: left;
+}
+
+div.scroll2 ol li {
+    margin-top: 15px;
+}
+
 ul {
     list-style-type: none;
 }
@@ -75,6 +91,11 @@ ul {
     margin: 20px auto;
 }
 
+.woo-foo-form2 {
+    width: 40%;
+    float: left;
+}
+
 .clear {
     clear: both;
 }
@@ -120,8 +141,7 @@ ul {
 
 /* EV: starting work on resizing fonts */
 
-.blue-bckgrnd h3 {
-}
+.blue-bckgrnd h3 {}
 
 .blue-bckgrnd ul {
     list-style-type: none;
@@ -158,6 +178,10 @@ ul {
     margin-top: -18px;
     font-size: 20px;
 }
+    .for-further .padding-bt {
+        text-align: left;
+        font-size: 20px;
+    }
 
 
 /* EV: Code for making 5 Columns > Source: http://www.wearesicc.com/quick-tips-5-column-layout-with-twitter-bootstrap/ */
@@ -216,8 +240,22 @@ ul {
     .woo-foo-form {
         width: 90%;
     }
+    .col-03 p{
+        font-size: 12px;
+    }
 }
-
+@media (max-width: 700px) {
+    div.scroll2 {
+        width: 100%;
+    }
+    .woo-foo-form2 {
+        width: 100%;
+    }
+    .hide-me {
+        display: none;
+    }
+    
+}
 @media (max-width: 500px) {
     /**Please clean this up, this isn't a good name **/
     .margin-top-px2 {
@@ -231,26 +269,29 @@ ul {
     .for-sale {
         font-size: 30px;
         margin-left: 8px;
-    margin-top: 0px;
+        margin-top: 0px;
     }
     .seven-bldgs {
         font-size: 16px;
         padding-left: 10px;
     }
     .footer-image {
-    width: 28%;
-}
+        width: 28%;
+    }
     .col-01 {
-    width: 62%;
+        width: 62%;
+    }
+    .for-further {
+    width: 100%;
 }
+    .for-further .padding-bt {
+        font-size: 16px;
+    }
     .col-ml {
-    margin-left: 2%;
-}
+        margin-left: 5%;
+    }
     .col-03 {
-    width: 98%;
-}
-    .hide-me {
-        display: none;
+        width: 98%;
     }
 }
 
